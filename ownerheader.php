@@ -27,5 +27,19 @@
 						<h1><a href="index.php">Wireless Navigation System For the Visually Imparied</a></h1>
 					
 					<!-- Nav -->
-						
+						<nav id="nav">
+							<ul>
+								<li class="current"><a href="profile.php">Home</a></li>
+								<li><a href="index.php?s=2">Add users</a></li>
+								<li>
+                                    <a href="">Tracking</a>
+                                    <ul>
+										<li><a href="location.php">Location</a></li>
+										<li><a href="heart.php">Heart pulse</a></li>
+										<li><a href="log.php">Event log</a></li>
+									</ul>
+                                </li>
+								<li><a href="index.php?s=100">Logout</a></li>
+							</ul>
+						</nav>
 

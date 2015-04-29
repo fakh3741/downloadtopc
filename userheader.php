@@ -24,8 +24,17 @@
 				<div id="header">
 					
 					<!-- Logo -->
-						<h1><a href="index.php">Wireless Navigation System For the Visually Imparied</a></h1>
+						<h1><a href="index.php">Wireless Navigation System For the Visually Imparied </a></h1>
 					
 					<!-- Nav -->
-						
+						<nav id="nav">
+							<ul>
+								<li class="current"><a href="main.php">Home</a></li>
+								<li>
+									<a href="location.php">Location tracking</a>
+								</li>
+								<li><a href="heart.php">Heart pulse</a></li>
+								<li><a href="index.php?s=100">Logout</a></li>
+							</ul>
+						</nav>
 
